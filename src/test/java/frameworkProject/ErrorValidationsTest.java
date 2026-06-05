@@ -17,7 +17,7 @@ public class ErrorValidationsTest extends BaseTest {
 
 		LP.LoginApp("123abc123@gmail.com", "Asurion@23");
 		Assert.assertEquals("Incorrect email or password.", LP.GetErrorMsg());
-
+		//Checking CICD scenario
 	}
 	
 	@Test
